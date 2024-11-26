@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from './components/Button';
-import instagramIcon from '../public/assets/instagram.png';
-import gmailIcon from '../public/assets/ggmail.png';
-import linkedinIcon from '../public/assets/linkedin.png';
-import outlookIcon from '../public/assets/outlook.png';
+import instagramIcon from '/assets/instagram.png';
+import gmailIcon from '/assets/ggmail.png';
+import linkedinIcon from '/assets/linkedin.png';
+import outlookIcon from '/assets/Outlook.png';
 
 const Contact = () => {
   return (
