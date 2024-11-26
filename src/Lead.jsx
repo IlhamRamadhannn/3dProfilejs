@@ -48,9 +48,15 @@ const Lead = () => {
         </div>
 
         <div className="sm:w-1/3 flex justify-center z-10">
-          <img src="ilham.jpg" alt="Ilham" className="rounded-lg w-60 h-75 object-cover z-0" /> {/* Ensure the image is behind */}
+          <img src="ilham.jpg" alt="Ilham" className="rounded-lg w-60 h-75 object-cover z-0" /> 
         </div>
       </div>
+
+      <div className=" mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 z-0">
+        <p className="mt-12 text-sm font-medium text-gray-400 sm:text-sm text-center" style={{paddingTop:90}}>
+        *if you are in desktop mode try hovering your mouse around the background behind
+        </p>
+        </div>
 
 
     </section>
