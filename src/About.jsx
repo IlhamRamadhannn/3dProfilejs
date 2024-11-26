@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Button from './components/Button';
-import githubIcon from '../public/assets/github.png'; // Import the GitHub icon image
+import githubIcon from '/assets/github.png'; // Import the GitHub icon image
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
               <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
               <div className="grid">
             <img
-              src="../public/assets/userface.png"
+              src="/assets/userface.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -43,7 +43,7 @@ const About = () => {
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
             <div className="grid">
             <img
-              src="../public/assets/language.png"
+              src="/assets/language.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -78,7 +78,7 @@ const About = () => {
 
              <div className="grid">
             <img
-              src="../public/assets/light.png"
+              src="/assets/light.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -103,7 +103,7 @@ const About = () => {
               </div>
               <div className="grid">
             <img
-              src="../public/assets/handshake.png"
+              src="/assets/handshake.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />

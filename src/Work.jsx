@@ -1,8 +1,7 @@
 import React from 'react'
 import './index.css';
 import Button from './components/Button';
-import githubIcon from '../public/assets/github.png'; // Import the GitHub icon image
-
+import githubIcon from '/assets/github.png'; // Import the GitHub icon image
 
 const Work = () => {
     return (
@@ -18,7 +17,7 @@ const Work = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="../public/assets/project1.png"
+              src="/assets/project1.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -35,7 +34,7 @@ const Work = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="../public/assets/project2.png"
+              src="/assets/project2.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -52,7 +51,7 @@ const Work = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="../public/assets/project3.png"
+              src="/assets/project3.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
