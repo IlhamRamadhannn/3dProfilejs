@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Button from './components/Button';
-import githubIcon from '/assets/github.png'; // Import the GitHub icon image
+import githubIcon from '../public/assets/github.png'; // Import the GitHub icon image
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
               <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
               <div className="grid">
             <img
-              src="/assets/userface.png"
+              src="../public/assets/userface.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -43,7 +43,7 @@ const About = () => {
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
             <div className="grid">
             <img
-              src="/assets/language.png"
+              src="../public/assets/language.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -54,8 +54,9 @@ const About = () => {
                 <p className="mt-2 max-w-lg text-sm/6 text-white text-600 max-lg:text-center">
                 - UI/UX Web Design <br />
                 - Database Management<br />
-                - Programming language (Javascript, php, React, SQL, Python, R)<br />
-                - Microsoft Office (Word, Excel, PowerPoint)
+                - Programming language: Javascript, php, SQL, Python, R<br />
+                - Frameworks & Tools: experienced with Laravel, React, and Figma for web and application development.<br/>
+                - Microsoft Office: Word, Excel, PowerPoint.
                 </p>
               </div>
               
@@ -78,7 +79,7 @@ const About = () => {
 
              <div className="grid">
             <img
-              src="/assets/light.png"
+              src="../public/assets/light.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -103,7 +104,7 @@ const About = () => {
               </div>
               <div className="grid">
             <img
-              src="/assets/handshake.png"
+              src="../public/assets/handshake.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
