@@ -19,7 +19,7 @@ const About = () => {
               <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
               <div className="grid">
             <img
-              src="../public/assets/userface.png"
+              src="/assets/userface.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
